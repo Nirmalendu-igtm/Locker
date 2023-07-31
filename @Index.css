@@ -1,0 +1,171 @@
+@import 'var.css';
+@media screen and (max-width: 700px) {
+    body
+    {
+        /*background-color: red;*/
+    }
+    form
+    {
+        height: 0px;
+    }
+    .h1
+    {
+        margin-top: var(--mtpr-3);
+    }
+    .container-fluid
+    {
+        /*border: 1px black solid;*/
+        margin-top: var(--mtpr-3);
+    }
+    .bi
+    {
+        animation: x 20s;
+        animation-iteration-count: infinite;
+    }
+@keyframes x
+    {
+        /* 0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        10%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        20%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        30%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        40%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        70%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        80%
+        {
+            box-shadow: 0px 0px 4px 0px red;
+        }
+        120%
+        {
+            box-shadow: 0px 0px 4px 0px blue;
+        }
+        80%
+        {
+            box-shadow: 0px 0px 4px 0px blue;
+        }
+        90%
+        {
+            box-shadow: 0px 0px 4px 0px blue;
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }*/
+
+
+        0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        25%
+        {
+            box-shadow: 0px 0px 4px 0px #FF0019;
+        }
+        50%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        75%
+        {
+            box-shadow: 0px 0px 6px 0px #2b60de;
+
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+
+    }
+
+    .warning
+    {
+        height: 25px;
+    }
+
+
+
+
+
+    .input
+    {
+        width: 300px  !important;
+        border: 1px black solid ;
+    }
+    .display-6
+    {
+        font-size: 15px;
+    }
+    .rounded
+    {/*
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;*/
+    }
+    .cont
+    {
+        /* display: grid;
+        grid-template-columns: auto auto auto;*/
+    }
+    .btm
+    {
+
+        /* display: flex;
+        grid-template-columns: auto auto auto;
+        width: 90%;*/
+
+    }
+
+    .otp
+    {
+        width: 200px;
+        height: 40px;
+        border: 1px black solid ;
+
+    }
+    .com
+    {
+
+        border: 1px black solid !important;
+        width: 50%;
+        height: 40px;
+    }
+    .cntr
+    {
+        margin: 0 auto;
+    }
+    .reg
+    {
+
+        border: 0px black solid;
+        width: 200px;
+        height: 40px;
+    }
+    .comty
+    {
+        border: 0px black solid;
+        width: 10%;
+        height: 40px;
+    }
+
+
+
+
+
+}

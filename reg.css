@@ -1,0 +1,56 @@
+@import '@index.css'
+/*.display-6
+{
+    font-size: 15px;
+}
+.rounded
+{
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+.cont
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.btm
+{
+    
+    display: flex;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    
+}
+
+.otp
+{
+    width: 200px;
+    height: 40px;
+    
+}
+.com
+{
+    
+    border: 0px black solid ;
+    width: 50%;
+    height: 40px;
+}
+.cntr
+{
+    margin: 0 auto;
+}
+.reg
+{
+
+    border: 0px black solid;
+    width: 200px;
+    height: 40px;
+}
+.comty
+{
+    border: 0px black solid ;
+    width: 10%;
+    height: 40px;
+}
+*/
