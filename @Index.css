@@ -1,75 +1,26 @@
-@import 'var.css';
-@media screen and (max-width: 700px) {
-    body
+@media only screen and (max-width: 480px) {
+    /* Your styles for mobile phones here */
+    .ico
     {
-        /*background-color: red;*/
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50%;
     }
-    form
+    svg
     {
-        height: 0px;
-    }
-    .h1
-    {
-        margin-top: var(--mtpr-3);
-    }
-    .container-fluid
-    {
-        /*border: 1px black solid;*/
-        margin-top: var(--mtpr-3);
-    }
-    .bi
-    {
-        animation: x 20s;
+        width: 200px;
+        height: 200px;
+        border: 0px blue solid;
+
+        animation: x 20s linear;
         animation-iteration-count: infinite;
+
+        border-radius: 50%;
     }
 @keyframes x
     {
-        /* 0%
-        {
-            box-shadow: 0px 0px 4px 0px #fff;
-        }
-        10%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        20%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        30%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        40%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        70%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        80%
-        {
-            box-shadow: 0px 0px 4px 0px red;
-        }
-        120%
-        {
-            box-shadow: 0px 0px 4px 0px blue;
-        }
-        80%
-        {
-            box-shadow: 0px 0px 4px 0px blue;
-        }
-        90%
-        {
-            box-shadow: 0px 0px 4px 0px blue;
-        }
-        100%
-        {
-            box-shadow: 0px 0px 4px 0px #fff;
-        }*/
-
-
         0%
         {
             box-shadow: 0px 0px 4px 0px #fff;
@@ -85,87 +36,195 @@
         75%
         {
             box-shadow: 0px 0px 6px 0px #2b60de;
-
         }
         100%
         {
             box-shadow: 0px 0px 4px 0px #fff;
         }
-
     }
+}
 
-    .warning
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for tablets here */
+    .ico
     {
-        height: 25px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
     }
-
-
-
-
-
-    .input
-    {
-        width: 300px  !important;
-        border: 1px black solid ;
-    }
-    .display-6
-    {
-        font-size: 15px;
-    }
-    .rounded
-    {/*
-        border-bottom: none !important;
-        border-left: none !important;
-        border-right: none !important;*/
-    }
-    .cont
-    {
-        /* display: grid;
-        grid-template-columns: auto auto auto;*/
-    }
-    .btm
-    {
-
-        /* display: flex;
-        grid-template-columns: auto auto auto;
-        width: 90%;*/
-
-    }
-
-    .otp
+    svg
     {
         width: 200px;
-        height: 40px;
-        border: 1px black solid ;
+        height: 200px;
+        border: 0px blue solid;
 
-    }
-    .com
-    {
+        animation: x 20s linear;
+        animation-iteration-count: infinite;
 
-        border: 1px black solid !important;
-        width: 50%;
-        height: 40px;
+        border-radius: 50%;
     }
-    .cntr
+@keyframes x
     {
-        margin: 0 auto;
+        0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        25%
+        {
+            box-shadow: 0px 0px 4px 0px #FF0019;
+        }
+        50%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        75%
+        {
+            box-shadow: 0px 0px 6px 0px #2b60de;
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
     }
-    .reg
-    {
+}
 
-        border: 0px black solid;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for small laptops and desktops here */
+    .ico
+    {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    svg
+    {
         width: 200px;
-        height: 40px;
+        height: 200px;
+        border: 0px blue solid;
+
+        animation: x 20s linear;
+        animation-iteration-count: infinite;
+
+        border-radius: 50%;
     }
-    .comty
+@keyframes x
     {
-        border: 0px black solid;
-        width: 10%;
-        height: 40px;
+        0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        25%
+        {
+            box-shadow: 0px 0px 4px 0px #FF0019;
+        }
+        50%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        75%
+        {
+            box-shadow: 0px 0px 6px 0px #2b60de;
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
     }
+}
 
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+    /* Your styles for medium to large desktops here */
+    .ico
+    {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    svg
+    {
+        width: 200px;
+        height: 200px;
+        border: 0px blue solid;
 
+        animation: x 20s linear;
+        animation-iteration-count: infinite;
 
+        border-radius: 50%;
+    }
+@keyframes x
+    {
+        0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        25%
+        {
+            box-shadow: 0px 0px 4px 0px #FF0019;
+        }
+        50%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        75%
+        {
+            box-shadow: 0px 0px 6px 0px #2b60de;
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+    }
+}
 
+@media only screen and (min-width: 1441px) {
+    /* Your styles for large desktops and beyond here */
 
+    .ico
+    {
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10%;
+    }
+    svg
+    {
+        width: 200px;
+        height: 200px;
+        border: 0px blue solid;
+
+        animation: x 20s linear;
+        animation-iteration-count: infinite;
+
+        border-radius: 50%;
+    }
+@keyframes x
+    {
+        0%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        25%
+        {
+            box-shadow: 0px 0px 4px 0px #FF0019;
+        }
+        50%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+        75%
+        {
+            box-shadow: 0px 0px 6px 0px #2b60de;
+        }
+        100%
+        {
+            box-shadow: 0px 0px 4px 0px #fff;
+        }
+    }
 }
